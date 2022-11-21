@@ -22,7 +22,7 @@ color:hsl(228, 12%, 48%)
         font-family:  'Fraunces', serif;
         color:hsl(212, 21%, 14%);
         font-weight: bold;
-        font-size: 36px;
+        font-size: 30px;
         line-height:36px;
     }
     .precio{
@@ -65,7 +65,7 @@ color:hsl(228, 12%, 48%)
         
     }
     
-    @media screen and (max-width: 399px) {
+    @media only screen and (max-width: 399px) {
     imagen {
         
         background-image: url(/product-preview-card-component-main/images/image-product-mobile.jpg) 
